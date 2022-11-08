@@ -11,4 +11,4 @@ for i in range(3):
     A = reverse(A)
     B = reverse(B)
     c = A + B
-    print("%d"%(reverse(c)))
+    print("%d\n"%(reverse(c)))
