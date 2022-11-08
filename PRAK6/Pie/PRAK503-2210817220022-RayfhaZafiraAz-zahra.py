@@ -21,4 +21,4 @@ for i in range(3):
             maks = maksimal(maks, angka)
             minim = minimal(minim, angka)
             batas+=1
-        print("%d %d"%(maks,minim));
+        print("%d %d\n"%(maks,minim));
