@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-int MaxBilangan (int a, int b, int c, int d){
-    if(a > b && a > c && a > d){
-        return a;}
-    else if(b > a && b > c && b > d){
-        return b;}
-    else if(c > a && c > b && c > d){
+int MaxBilangan (int c, int a, int s, int e){
+    if(c > a && c > s && c > e){
         return c;}
+    else if(a > c && a > s && a > e){
+        return a;}
+    else if(s > c && s > a && s > e){
+        return s;}
     else{
-        return d;}
+        return e;}
 }
 
 int main(){
